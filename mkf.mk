@@ -3,6 +3,6 @@ sample.pdf: sample.dat
 	rm f
 	rm sample.dat
 sample.dat: sample.cpp
-	g++ sample.cpp -o f
+	g++ -std=c++11 sample.cpp -o f
 	./f 2000 0 1
 

@@ -15,6 +15,7 @@ double _rn(void);
 double gg(double mu, double sigma);
 time_t t;
 
+
 int main (int argc, char *argv[] )
 {
 	if( argc != 4 ) 
